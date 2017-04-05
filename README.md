@@ -1,9 +1,6 @@
 # Study
+[toc]
 # Python
-
-[TOC]
-
-
 ## 数据类型与变量
 
 **基本数据类型**
@@ -50,18 +47,20 @@ PS：整数和浮点数型可指定是否补0或小数点位数（%02d,%.2f）
 ** 使用list和tuple**
 *** list***
 - 用len()函数可以获得list元素的个数：
+
 `>>> len()`
 - list是一个可变的有序表，所以，可以往list中追加元素到末尾：
+
 `>>> list.append('str')`
 - 也可以把元素插入到指定的位置，比如索引号为1的位置：
+
 `>>> list.insert(1, 'str')`
 - 要删除list末尾的元素，用pop()方法：
+
 `>>> list.pop()`
 - 要删除指定位置的元素，用pop(i)方法，其中i是索引位置：
-`	>>> classmates.pop(1)
-	'Jack'
-	>>> classmates
-	['Michael', 'Bob', 'Tracy']`
+
+`>>> classmates.pop(1)`
 
 
 
